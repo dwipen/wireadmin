@@ -142,13 +142,6 @@
       0 => 'NunoMaduro\\Collision\\Adapters\\Laravel\\CollisionServiceProvider',
     ),
   ),
-  'pcinaglia/laraupdater' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'pcinaglia\\laraupdater\\LaraUpdaterServiceProvider',
-    ),
-  ),
   'spatie/laravel-activitylog' => 
   array (
     'providers' => 

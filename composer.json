@@ -22,8 +22,6 @@
         "laravel/ui": "^3.0",
         "livewire/livewire": "^2.2",
         "maatwebsite/excel": "^3.1",
-        "pcinaglia/laraupdater": "^1.0",
-        "razorpay/razorpay": "2.*",
         "spatie/laravel-activitylog": "^3.16",
         "spatie/laravel-permission": "^3.17",
         "srmklive/paypal": "^3.0"
