@@ -43,10 +43,11 @@
     39 => 'Spatie\\Activitylog\\ActivitylogServiceProvider',
     40 => 'Spatie\\Permission\\PermissionServiceProvider',
     41 => 'Srmklive\\PayPal\\Providers\\PayPalServiceProvider',
-    42 => 'App\\Providers\\AppServiceProvider',
-    43 => 'App\\Providers\\AuthServiceProvider',
-    44 => 'App\\Providers\\EventServiceProvider',
-    45 => 'App\\Providers\\RouteServiceProvider',
+    42 => 'Tymon\\JWTAuth\\Providers\\LaravelServiceProvider',
+    43 => 'App\\Providers\\AppServiceProvider',
+    44 => 'App\\Providers\\AuthServiceProvider',
+    45 => 'App\\Providers\\EventServiceProvider',
+    46 => 'App\\Providers\\RouteServiceProvider',
   ),
   'eager' => 
   array (
@@ -79,10 +80,11 @@
     26 => 'Spatie\\Activitylog\\ActivitylogServiceProvider',
     27 => 'Spatie\\Permission\\PermissionServiceProvider',
     28 => 'Srmklive\\PayPal\\Providers\\PayPalServiceProvider',
-    29 => 'App\\Providers\\AppServiceProvider',
-    30 => 'App\\Providers\\AuthServiceProvider',
-    31 => 'App\\Providers\\EventServiceProvider',
-    32 => 'App\\Providers\\RouteServiceProvider',
+    29 => 'Tymon\\JWTAuth\\Providers\\LaravelServiceProvider',
+    30 => 'App\\Providers\\AppServiceProvider',
+    31 => 'App\\Providers\\AuthServiceProvider',
+    32 => 'App\\Providers\\EventServiceProvider',
+    33 => 'App\\Providers\\RouteServiceProvider',
   ),
   'deferred' => 
   array (
