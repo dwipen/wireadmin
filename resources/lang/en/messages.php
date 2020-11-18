@@ -1,0 +1,26 @@
+<?php
+
+return [
+    'woops' => 'woops something went wrong!',
+    'success' => ':attr successfully',
+    'failed' => ':attr failed',
+    'not-found' => ':attr not found',
+    'not-saved' => ':attr can not be saved',
+    'used' => ':attr already used',
+    'settings-warning' => 'changing settings may reload your complete system, careful!! read aiomlm software documentation for info',
+    'settings-updated' => 'settings updated successfully',
+    'deleted' => ':attr deleted successfully',
+    'saved' => ':attr saved successfully',
+    'created' => ':attr created successfully',
+    'exists' => ':attr already exists',
+    'not-deleted' => ':attr can not be deleted',
+    'not-edited' => ':attr can not be edited',
+    'can-not' => 'you can not :attr',
+    'not-matched' => ':attr not matched',
+    'product-has-order'  => 'product has order',
+    'low-funds'  => 'you have only :balance on your wallet',
+    'no-withdraws' => "there's no withdraw requests to accept",
+    'funds-transfered' => 'funds transfered successfully',
+    'funds-added' => 'funds added successfully',
+    'funds-deducted' => 'funds deducted successfully',
+];

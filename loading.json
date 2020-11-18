@@ -1,0 +1,3 @@
+{
+  "loaders" : [ "registerNow", "loginNow", "updateButton", "deleteButton", "save", "showLoading", "payWithPaypal", "payWithRazorpay" ]
+}
