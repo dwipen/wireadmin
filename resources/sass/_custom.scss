@@ -2,40 +2,12 @@
 @import '~icheck-bootstrap/icheck-bootstrap.css';
 @import '../../vendor/almasaeed2010/adminlte/dist/css/adminlte.css';
 
-
 //tailwind css
 // @import "tailwindcss/base";
 //
 // @import "tailwindcss/components";
 //
 // @import "tailwindcss/utilities";
-
-//fonts
-
-@font-face {
-  font-family: Lemonada-Regular;
-  src: url('../assets/Lemonada/static/Lemonada-Regular.ttf');
-}
-
-@font-face {
-  font-family: Lemonada-Bold;
-  src: url('../assets/Lemonada/static/Lemonada-Bold.ttf');
-}
-
-@font-face {
-  font-family: Lemonada-SemiBold;
-  src: url('../assets/Lemonada/static/Lemonada-SemiBold.ttf');
-}
-
-@font-face {
-  font-family: Lemonada-Light;
-  src: url('../assets/Lemonada/static/Lemonada-Light.ttf');
-}
-
-@font-face {
-  font-family: Lemonada-Medium;
-  src: url('../assets/Lemonada/static/Lemonada-Medium.ttf');
-}
 
 //fontawesome
 $fa-font-path:"../webfonts";

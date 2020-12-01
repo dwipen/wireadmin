@@ -18,18 +18,6 @@
   @endforeach
 @stop
 @section('content')
-  @if (\Auth::user()->hasPermissionTo('manage-administrator') && \Route::currentRouteName()==='dashboard')
-    @if ($info = (new \App\Repositories\SystemUpdateRepository())->getLatestVersion())
-      <div class="col-md-12 card">
-        <div class="row justify-content-center">
-          <div class="text-info">
-                  <strong>System update available : version : {{ $info['version'] }}</strong>
-                  <a href="{{ route('system.update') }}" class="btn btn-success btn-sm">Update now</a>
-          </div>
-        </div>
-      </div>
-    @endif
-  @endif
   {{ $slot }}
 @stop
 @if (setting('site.footer') )

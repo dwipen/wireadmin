@@ -9,7 +9,7 @@
                     </li>
                 <?php else: ?>
                     <li class="page-item">
-                        <button type="button" dusk="previousPage" class="page-link" wire:click="previousPage" rel="prev" aria-label="<?php echo app('translator')->get('pagination.previous'); ?>">&lsaquo;</button>
+                        <button type="button" dusk="previousPage" class="page-link" wire:click="previousPage" wire:loading.attr="disabled" rel="prev" aria-label="<?php echo app('translator')->get('pagination.previous'); ?>">&lsaquo;</button>
                     </li>
                 <?php endif; ?>
 
@@ -35,7 +35,7 @@
                 
                 <?php if($paginator->hasMorePages()): ?>
                     <li class="page-item">
-                        <button type="button" dusk="nextPage" class="page-link" wire:click="nextPage" rel="next" aria-label="<?php echo app('translator')->get('pagination.next'); ?>">&rsaquo;</button>
+                        <button type="button" dusk="nextPage" class="page-link" wire:click="nextPage" wire:loading.attr="disabled" rel="next" aria-label="<?php echo app('translator')->get('pagination.next'); ?>">&rsaquo;</button>
                     </li>
                 <?php else: ?>
                     <li class="page-item disabled" aria-disabled="true" aria-label="<?php echo app('translator')->get('pagination.next'); ?>">
@@ -46,4 +46,4 @@
         </nav>
     <?php endif; ?>
 </div>
-<?php /**PATH /var/www/web/wireadmin/vendor/livewire/livewire/src/views/bootstrap.blade.php ENDPATH**/ ?>
+<?php /**PATH /var/www/web/wireadmin/vendor/livewire/livewire/src/views/pagination/bootstrap.blade.php ENDPATH**/ ?>

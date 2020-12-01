@@ -17,18 +17,6 @@
   <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
 <?php $__env->stopSection(); ?>
 <?php $__env->startSection('content'); ?>
-  <?php if(\Auth::user()->hasPermissionTo('manage-administrator') && \Route::currentRouteName()==='dashboard'): ?>
-    <?php if($info = (new \App\Repositories\SystemUpdateRepository())->getLatestVersion()): ?>
-      <div class="col-md-12 card">
-        <div class="row justify-content-center">
-          <div class="text-info">
-                  <strong>System update available : version : <?php echo e($info['version']); ?></strong>
-                  <a href="<?php echo e(route('system.update')); ?>" class="btn btn-success btn-sm">Update now</a>
-          </div>
-        </div>
-      </div>
-    <?php endif; ?>
-  <?php endif; ?>
   <?php echo e($slot); ?>
 
 <?php $__env->stopSection(); ?>
